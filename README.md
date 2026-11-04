@@ -1,4 +1,4 @@
-<img src="https://github.com/enterTheVoidCode/ClawTweaksCenter/releases/download/test-cyannova-1.3.0/CyanNova_Splash.png" width="500" alt="CyanNova" />
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/35db0f4fdba09faab6baaee2f0d73053677d61a6/Doku/Releases/103/CyanNova_Splash.png" width="500" alt="CyanNova" />
 
 The game library made for the controller, formerly ClawTweaks Library. Steam, Epic, Xbox, Ubisoft, EA, Battle.net and GOG, your ROMs and your own apps in one place.
 
@@ -12,6 +12,12 @@ The game library made for the controller, formerly ClawTweaks Library. Steam, Ep
 **Lock screen**
 - Your last game, battery and charge limit at a glance
 - Settings, sleep, hibernate, restart and shut down
+
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/80b7ea755689b3a66f95cf87200ba48d27607df1/Doku/Releases/103/CyanNova_Library.webp" width="700" alt="Live wallpaper behind the library" />
+
+**Live wallpaper**
+- Your own MP4 videos play muted and looped behind the library and on the lock screen
+- Pick one from a gallery with still frames
 
 <img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Achievements.png" width="700" alt="Achievements in gold, silver and bronze" />
 
