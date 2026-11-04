@@ -1,56 +1,71 @@
-# ClawTweaks Center
+<img src="https://github.com/enterTheVoidCode/ClawTweaksCenter/releases/download/test-cyannova-1.3.0/CyanNova_Splash.png" width="100%" alt="CyanNova" />
 
-Installer and control panel for [ClawTweaks](https://github.com/enterTheVoidCode/ClawTweaks) on the
-MSI Claw. Center installs and updates the ClawTweaks app package, guides you through the
-prerequisites it cannot install for you, and gives you a controller-navigable menu for maintenance
-tasks once everything is in place.
+# CyanNova
 
-Center is shipped as **one self-contained exe**: no .NET installation required, nothing to unpack.
+The game library made for the controller, formerly ClawTweaks Library. Steam, Epic, Xbox, Ubisoft, EA, Battle.net and GOG, your ROMs and your own apps in one place.
 
-**Download:** [latest release](https://github.com/enterTheVoidCode/ClawTweaksCenter/releases/latest).
-Center updates itself from there.
+> [!NOTE]
+> We are working on a Microsoft Store release of CyanNova.
 
-## The game library
+## Download
 
-Steam, Epic, Xbox, Ubisoft, EA, Battle.net and GOG, your ROMs from Playnite and your own apps on one
-shelf — made for the controller, with the cover art the stores already cached. Center can open
-straight into it.
+- **Windows PC and other handhelds:** run `CyanNovaLauncher_<version>_Setup.exe` from the [latest release](https://github.com/enterTheVoidCode/ClawTweaksCenter/releases/latest).
+- **MSI Claw (A1M, A2VM, EX):** run the setup from the [ClawTweaks releases](https://github.com/enterTheVoidCode/ClawTweaks/releases). CyanNova is an optional part of it.
 
-<img src="screenshots/1_Library.png" width="600" alt="Game library" />
+CyanNova updates itself.
 
-Games without cached art can be given a cover from SteamGridDB, and any cover can be swapped the
-same way.
+## Features
 
-<img src="screenshots/1.1_Coverart_ViaSteamgridDB.png" width="600" alt="Cover art from SteamGridDB" />
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Lockscreen.png" width="700" alt="Lock screen" />
 
-ROMs come in from Playnite with their systems, icons and emulator start parameters. Keep managing
-them in Playnite.
+**Lock screen**
+- Your last game, battery and charge limit at a glance
+- Settings, sleep, hibernate, restart and shut down
 
-<img src="screenshots/3_Library_PlayniteRoms.png" width="600" alt="ROMs from Playnite" />
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Achievements.png" width="700" alt="Achievements in gold, silver and bronze" />
 
-Anything else you want to start from the same place goes under My Apps.
+**Achievements in gold, silver and bronze**
+- Ranked by rarity
+- Recent achievements right on the game
 
-<img src="screenshots/2_Library_Misc.png" width="600" alt="My Apps" />
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Saves.png" width="700" alt="Local and cloud saves with Ludusavi" />
 
-## Two things worth knowing
+**Local and cloud saves with Ludusavi**
+- For games without a built-in cloud sync, ROMs and PC ports
+- Sync with your PC and get asked at game start when a newer save exists
 
-**Center never asks for administrator rights.** It installs itself per user, and the things that
-genuinely need elevation are handed to their vendors' own installers or to the signed ClawTweaks
-helper.
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Connect_PC.png" width="700" alt="Connect to your PC" />
 
-**Center does not download and run executables.** Installing the ClawTweaks **app package** goes
-through Windows' own package installer.
+**Connect to your PC**
+- Pick a game right here, open the CyanNova library or the desktop
+
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Start_PC.png" width="700" alt="Start your PC from the library" />
+
+**Start your PC from the library**
+- See its status and wake it from the top bar
+
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Local_Or_Stream.png" width="700" alt="Handheld or PC" />
+
+**Handheld or PC**
+- CyanNova knows when a game is on your PC too
+- Choose a local or a streaming session
+
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Install_Target.png" width="700" alt="Install where you want" />
+
+**Install where you want**
+- Install a game on the handheld or on your PC
+
+<img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Update_History.png" width="700" alt="Game update history" />
+
+**Game update history**
+- Recent game updates across stores, with patch notes
 
 ## Source code
 
-Center is closed source. This repository holds the releases, the screenshots above and the files
-Center downloads at runtime (`update-manifest.json`, `wallpapers/`, `music/`) — please leave their
-paths as they are, installed copies depend on them.
+CyanNova is closed source. This repository holds the releases, the screenshots and the files CyanNova downloads at runtime (`update-manifest.json`, `wallpapers/`, `music/`). Please leave their paths as they are, installed copies depend on them.
 
-Bugs and ideas are welcome as [issues](https://github.com/enterTheVoidCode/ClawTweaksCenter/issues).
-The Game Bar **widget** is public and lives in the main
-[`ClawTweaks`](https://github.com/enterTheVoidCode/ClawTweaks) repository.
+Bugs and ideas are welcome as [issues](https://github.com/enterTheVoidCode/ClawTweaksCenter/issues). The Game Bar **widget** is public and lives in the main [`ClawTweaks`](https://github.com/enterTheVoidCode/ClawTweaks) repository.
 
 ## License
 
-All rights reserved — see [LICENSE](LICENSE). The released builds are free to use.
+All rights reserved, see [LICENSE](LICENSE). The released builds are free to use.
