@@ -5,13 +5,6 @@ The game library made for the controller, formerly ClawTweaks Library. Steam, Ep
 > [!NOTE]
 > We are working on a Microsoft Store release of CyanNova.
 
-## Download
-
-- **Windows PC and other handhelds:** run `CyanNovaLauncher_<version>_Setup.exe` from the [latest release](https://github.com/enterTheVoidCode/ClawTweaksCenter/releases/latest).
-- **MSI Claw (A1M, A2VM, EX):** run the setup from the [ClawTweaks releases](https://github.com/enterTheVoidCode/ClawTweaks/releases). CyanNova is an optional part of it.
-
-CyanNova updates itself.
-
 ## Features
 
 <img src="https://raw.githubusercontent.com/enterTheVoidCode/ClawTweaks/49d5a1c67fecb9375b5dc3142c65df0bfa83f36f/Doku/Releases/103/CyanNova_Lockscreen.png" width="700" alt="Lock screen" />
