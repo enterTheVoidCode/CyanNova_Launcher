@@ -1,4 +1,4 @@
-<img src="https://github.com/enterTheVoidCode/ClawTweaksCenter/releases/download/test-cyannova-1.3.0/CyanNova_Splash.png" width="100%" alt="CyanNova" />
+<img src="https://github.com/enterTheVoidCode/ClawTweaksCenter/releases/download/test-cyannova-1.3.0/CyanNova_Splash.png" width="500" alt="CyanNova" />
 
 The game library made for the controller, formerly ClawTweaks Library. Steam, Epic, Xbox, Ubisoft, EA, Battle.net and GOG, your ROMs and your own apps in one place.
 
