@@ -60,12 +60,6 @@ CyanNova updates itself.
 **Game update history**
 - Recent game updates across stores, with patch notes
 
-## Source code
-
-CyanNova is closed source. This repository holds the releases, the screenshots and the files CyanNova downloads at runtime (`update-manifest.json`, `wallpapers/`, `music/`). Please leave their paths as they are, installed copies depend on them.
-
-Bugs and ideas are welcome as [issues](https://github.com/enterTheVoidCode/ClawTweaksCenter/issues). The Game Bar **widget** is public and lives in the main [`ClawTweaks`](https://github.com/enterTheVoidCode/ClawTweaks) repository.
-
 ## License
 
 All rights reserved, see [LICENSE](LICENSE). The released builds are free to use.
